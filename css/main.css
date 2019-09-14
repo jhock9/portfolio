@@ -1,14 +1,10 @@
-/*
-font-family: 'Roboto Slab', serif;
-font-family: 'Roboto', sans-serif;
-*/
-
 /***** BASE STYLES *****/
 
 body {
     font-family: 'Roboto', sans-serif;
     font-size: 24px;
     color: #095156;
+    background-color: #ffffff;
 }
 
 h1 {
@@ -44,26 +40,31 @@ h4 {
     float: left;
 }
 
-.third-width {
-    width: 400px;
-    float: left;
-}
-
-#about, #work, #contact {
-    height: 600px;
-}
-
 /***** HEADER *****/
 
+#header {
+    height: 800px;
+}
+
+/***** WORK *****/
+#work {
+    height: 1450px;
+    border-width: 1px #b7b7b7;
+}
 
 /***** ABOUT *****/
 
-
-/***** WORK *****/
-
+#about {
+    height: 650px;
+    background-color: #087e8b;
+}
 
 /***** CONTACT *****/
 
+#work {
+    height: 400px;
+    background-color: #095156;
+}
 
 /***** FOOTER *****/
 
