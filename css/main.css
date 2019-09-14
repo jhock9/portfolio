@@ -2,3 +2,71 @@
 font-family: 'Roboto Slab', serif;
 font-family: 'Roboto', sans-serif;
 */
+
+/***** BASE STYLES *****/
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    color: #095156;
+}
+
+h1 {
+    font-family: 'Roboto Slab', serif;
+    font-size: 60px;
+    font-weight: bold;
+    color: #bdbf09;
+}
+
+h2 {
+    font-size: 48;
+}
+
+h3 {
+    font-family: 'Roboto Slab', serif;
+    font-weight: bold;
+    font-size: 36px;
+}
+
+h4 {
+    font-weight: bold;
+}
+
+/***** GRID *****/
+
+.full-width {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.half-width {
+    width: 600px;
+    float: left;
+}
+
+.third-width {
+    width: 400px;
+    float: left;
+}
+
+#about, #work, #contact {
+    height: 600px;
+}
+
+/***** HEADER *****/
+
+
+/***** ABOUT *****/
+
+
+/***** WORK *****/
+
+
+/***** CONTACT *****/
+
+
+/***** FOOTER *****/
+
+h5 {
+    font-size: 18px;
+}
