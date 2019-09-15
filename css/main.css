@@ -2,7 +2,7 @@
 
 body {
     font-family: 'Roboto', sans-serif;
-    font-size: 24px;
+    font-size: 20px;
     color: #095156;
     background-color: #ffffff;
 }
@@ -11,6 +11,8 @@ h3 {
     font-family: 'Roboto Slab', serif;
     font-size: 36px;
     text-align: center;
+    padding-top: 36px;
+    margin: 0;
 }
 
 h3, h4 {
@@ -26,14 +28,20 @@ h3, h4 {
 }
 
 .half-width {
-    width: 600px;
+    width: 500px;
+    float: left;
+    padding: 50px;
+}
+
+.third-width {
+    width: 400px;
     float: left;
 }
 
 /***** HEADER *****/
 
 header {
-    height: 800px;
+    height: 700px;
     background: url('../img/hero.png');
     background-size: cover;
 }
@@ -45,41 +53,95 @@ h1 {
     color: #bdbf09;
     text-align: center;
     text-transform: capitalize;
-    padding: 300px 0 0 0;
+    padding: 320px 0 0 0;
+    margin: 0 0 10px 0;
 }
 
 h2 {
-    font-size: 48;
+    font-size: 48px;
     text-align: center;
     font-weight: 400;
+    margin: 10px;
 }
 
 /***** WORK *****/
+
 #work {
     height: 1450px;
     border-width: 1px #b7b7b7;
 }
 
-#work h4 {
+#rogue {
 
+}
+
+#jubilee {
+    clear: both;
+}
+
+#holstee {
+    clear: both;
 }
 
 /***** ABOUT *****/
 
 #about {
-    height: 650px;
+    height: 600px;
     background-color: #087e8b;
+}
+
+#about h3, #about h4, #about p {
+    color: white;
+}
+
+#about #headshot {
+    height: 350px;
 }
 
 /***** CONTACT *****/
 
-#work {
-    height: 400px;
+#contact {
+    height: 300px;
     background-color: #095156;
+}
+
+#contact h3, #contact h4, #contact p {
+    color: white;
+    text-align: center;
+    }
+
+#contact a, #contact p {
+    text-decoration: none;
+    color: white;
+    font-weight: 400;
+}
+
+#social-media-icons {
+    text-align: center;
+    list-style: none;
+}
+
+#contact ul {
+    padding: 0;
+}
+
+#contact ul li {
+    display: inline-block;
+}
+
+#contact ul img {
+    font-size: 32px;
+    margin: 0 25px;
 }
 
 /***** FOOTER *****/
 
 h5 {
-    font-size: 18px;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    color: white;
+    background-color: #095156;
+    padding: 0 0 10px 0;
+    margin: 0;
 }
