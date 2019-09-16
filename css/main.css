@@ -11,7 +11,7 @@ h3 {
     font-family: 'Roboto Slab', serif;
     font-size: 36px;
     text-align: center;
-    padding-top: 36px;
+    padding-top: 25px;
     margin: 0;
 }
 
@@ -30,7 +30,7 @@ h3, h4 {
 .half-width {
     width: 500px;
     float: left;
-    padding: 50px;
+    padding: 25px 50px;
 }
 
 .third-width {
@@ -58,7 +58,7 @@ h1 {
 }
 
 h2 {
-    font-size: 48px;
+    font-size: 40px;
     text-align: center;
     font-weight: 400;
     margin: 10px;
@@ -67,7 +67,7 @@ h2 {
 /***** WORK *****/
 
 #work {
-    height: 1450px;
+    height: 1300px;
     border-width: 1px #b7b7b7;
 }
 
@@ -75,33 +75,53 @@ h2 {
 
 }
 
-#jubilee {
+#jubilee, #holstee {
     clear: both;
 }
 
-#holstee {
-    clear: both;
+#work #holstee-link {
+    color: #bdbf09;
+}
+
+#work h4 {
+    font-size: 26px;
+    margin-bottom: 5px;
+}
+
+#work h5 {
+    margin: 0;
+    color: #087e8b
 }
 
 /***** ABOUT *****/
 
 #about {
-    height: 600px;
+    height: 500px;
     background-color: #087e8b;
+}
+
+#about #headshot {
+    height: 350px;
+    display: block;
+    margin: auto;
+}
+
+#about #blusource-link {
+    color: #ffffff;
 }
 
 #about h3, #about h4, #about p {
     color: white;
 }
 
-#about #headshot {
-    height: 350px;
+#about span {
+
 }
 
 /***** CONTACT *****/
 
 #contact {
-    height: 300px;
+    height: 250px;
     background-color: #095156;
 }
 
@@ -136,7 +156,7 @@ h2 {
 
 /***** FOOTER *****/
 
-h5 {
+h6 {
     font-size: 14px;
     font-weight: 400;
     text-align: center;
