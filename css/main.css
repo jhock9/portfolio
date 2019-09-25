@@ -1,4 +1,187 @@
-/*
-font-family: 'Roboto Slab', serif;
-font-family: 'Roboto', sans-serif;
+/***** BASE STYLES *****/
+
+body {
+    font-family: 'Sanchez', serif;
+    font-size: 20px;
+    color: #c5bfa0;
+    background-color: #ffffff;
+}
+
+h3 {
+    font-family: 'Poiret One', cursive;
+    font-size: 36px;
+    text-align: center;
+    padding: 30px;
+    margin: 0;
+}
+
+h3, h4 {
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+.half-width img {
+    border: 2px solid #c5bfa0;
+    border-radius: 20px;
+}
+
+/***** GRID *****/
+
+.full-width {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.half-width {
+    width: 500px;
+    float: left;
+    padding: 25px 50px;
+}
+
+.third-width {
+    width: 400px;
+    float: left;
+}
+
+/***** HEADER *****/
+
+header {
+    height: 700px;
+    background: url('../img/hero.jpg');
+    background-size: cover;
+}
+
+/* alt heading styles
+font-family: 'Yeseva One', cursive;
 */
+
+h1 {
+    font-family: 'Patua One', cursive;
+    font-size: 60px;
+    font-weight: 400;
+    text-align: center;
+    text-transform: capitalize;
+    text-shadow: 1px 1px 8px #b09d7e;
+    color: #404c4e;
+    padding: 320px 0 0 0;
+    margin: 0 0 10px 0;
+}
+
+h2 {
+    font-size: 40px;
+    font-weight: 400;
+    text-align: center;
+    text-shadow: 3px 3px 8px #b09d7e;
+    color: #404c4e;
+    margin: 10px;
+}
+
+/***** WORK *****/
+
+#work {
+    height: 1400px;
+    background-color: #404c4e;
+}
+
+/* #rogue -- no elements */
+
+#jubilee, #holstee {
+    clear: both;
+}
+
+#work h4 {
+    font-size: 26px;
+    margin-bottom: 5px;
+}
+
+#work h5 {
+    font-family: 'Poiret One', cursive;
+    margin: 0;
+    color: #bf905d
+}
+
+#holstee-link {
+    color: #c5bfa0;
+}
+
+/***** ABOUT *****/
+
+#about {
+    height: 550px;
+    background-color: #4e7c72;
+}
+
+#about #headshot {
+    height: 350px;
+    display: block;
+    margin: auto;
+}
+
+#about h3, #about h4, #about p, #blusource-link {
+    color: #c5bfa0;
+}
+
+#about span {
+    font-size: 24px;
+    font-family: 'Shadows Into Light', cursive;
+    color: #bf905d;
+}
+
+/***** CONTACT/FOOTER *****/
+
+#contact {
+    height: 340px;
+    background-color: #c5bfa0;
+}
+
+#contact h3, #contact h4, #contact h6, #contact p {
+    color: #404c4e;
+    text-align: center;
+    }
+
+#contact h4 {
+    font-family: 'Patua One', cursive;
+    font-size: 22px;
+    font-weight: 400;
+    margin: 25px 0 30px 0;
+}
+
+#contact p {
+    font-size: 18px;
+}
+
+#contact a {
+    text-decoration: none;
+    color: #404c4e;
+}
+
+#social-media-icons {
+    text-align: center;
+    list-style: none;
+}
+
+#contact ul {
+    padding: 0;
+}
+
+#contact ul li {
+    display: inline-block;
+}
+
+#contact ul img {
+    font-size: 32px;
+    margin: 0 25px;
+}
+
+#contact #github, #linkedin {
+    height: 50px;
+}
+
+h6 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    clear: both;
+    padding: 50px 0 10px 0;
+    margin: 0;
+}
