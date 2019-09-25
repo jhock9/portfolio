@@ -3,7 +3,7 @@
 body {
     font-family: 'Sanchez', serif;
     font-size: 20px;
-    color: #095156;
+    color: #c5bfa0;
     background-color: #ffffff;
 }
 
@@ -11,7 +11,7 @@ h3 {
     font-family: 'Poiret One', cursive;
     font-size: 36px;
     text-align: center;
-    padding-top: 25px;
+    padding: 30px;
     margin: 0;
 }
 
@@ -21,8 +21,8 @@ h3, h4 {
 }
 
 .half-width img {
-    border: 1px solid  #d3d3d3
-    ;
+    border: 2px solid #c5bfa0;
+    border-radius: 20px;
 }
 
 /***** GRID *****/
@@ -47,50 +47,46 @@ h3, h4 {
 
 header {
     height: 700px;
-    background: url('../img/hero.png');
+    background: url('../img/hero.jpg');
     background-size: cover;
 }
 
 /* alt heading styles
-font-family: 'Patua One', cursive;
 font-family: 'Yeseva One', cursive;
-font-family: 'Poiret One', cursive;
-
 */
 
 h1 {
     font-family: 'Patua One', cursive;
     font-size: 60px;
     font-weight: 400;
-    color: #bdbf09;
     text-align: center;
     text-transform: capitalize;
+    text-shadow: 1px 1px 8px #b09d7e;
+    color: #404c4e;
     padding: 320px 0 0 0;
     margin: 0 0 10px 0;
 }
 
 h2 {
     font-size: 40px;
-    text-align: center;
     font-weight: 400;
+    text-align: center;
+    text-shadow: 3px 3px 8px #b09d7e;
+    color: #404c4e;
     margin: 10px;
 }
 
 /***** WORK *****/
 
 #work {
-    height: 1300px;
-    border-width: 1px #b7b7b7;
+    height: 1400px;
+    background-color: #404c4e;
 }
 
 /* #rogue -- no elements */
 
 #jubilee, #holstee {
     clear: both;
-}
-
-#work #holstee-link {
-    color: #bdbf09;
 }
 
 #work h4 {
@@ -101,14 +97,18 @@ h2 {
 #work h5 {
     font-family: 'Poiret One', cursive;
     margin: 0;
-    color: #087e8b
+    color: #bf905d
+}
+
+#holstee-link {
+    color: #c5bfa0;
 }
 
 /***** ABOUT *****/
 
 #about {
-    height: 500px;
-    background-color: #087e8b;
+    height: 550px;
+    background-color: #4e7c72;
 }
 
 #about #headshot {
@@ -117,32 +117,33 @@ h2 {
     margin: auto;
 }
 
-#about h3, #about h4, #about p, #about #blusource-link {
-    color: #ffffff;
+#about h3, #about h4, #about p, #blusource-link {
+    color: #c5bfa0;
 }
 
 #about span {
+    font-size: 24px;
     font-family: 'Shadows Into Light', cursive;
+    color: #bf905d;
 }
 
-#about p {
-    font-size: 18px;
-}
-/***** CONTACT *****/
+/***** CONTACT/FOOTER *****/
 
 #contact {
-    height: 250px;
-    background-color: #095156;
+    height: 340px;
+    background-color: #c5bfa0;
 }
 
-#contact h3, #contact h4, #contact p {
-    color: #ffffff;
+#contact h3, #contact h4, #contact h6, #contact p {
+    color: #404c4e;
     text-align: center;
     }
 
 #contact h4 {
     font-family: 'Patua One', cursive;
+    font-size: 22px;
     font-weight: 400;
+    margin: 25px 0 30px 0;
 }
 
 #contact p {
@@ -151,7 +152,7 @@ h2 {
 
 #contact a {
     text-decoration: none;
-    color: #ffffff;
+    color: #404c4e;
 }
 
 #social-media-icons {
@@ -176,15 +177,11 @@ h2 {
     height: 50px;
 }
 
-/***** FOOTER *****/
-
 h6 {
     font-family: 'Raleway', sans-serif;
     font-size: 14px;
     font-weight: 400;
-    text-align: center;
-    color: #ffffff;
-    background-color: #095156;
-    padding: 0 0 10px 0;
+    clear: both;
+    padding: 50px 0 10px 0;
     margin: 0;
 }
