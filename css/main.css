@@ -1,13 +1,14 @@
 /***** BASE STYLES *****/
 
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Sanchez', serif;
     font-size: 20px;
     color: #095156;
     background-color: #ffffff;
 }
 
 h3 {
+    font-family: 'Poiret One', cursive;
     font-size: 36px;
     text-align: center;
     padding-top: 25px;
@@ -19,11 +20,7 @@ h3, h4 {
     text-transform: capitalize;
 }
 
-h3, h5 {
-    font-family: 'Poiret One', cursive;
-}
-
-.full-width img {
+.half-width img {
     border: 1px solid  #d3d3d3
     ;
 }
@@ -54,10 +51,17 @@ header {
     background-size: cover;
 }
 
+/* alt heading styles
+font-family: 'Patua One', cursive;
+font-family: 'Yeseva One', cursive;
+font-family: 'Poiret One', cursive;
+
+*/
+
 h1 {
-    font-family: 'Roboto Slab', serif;
+    font-family: 'Patua One', cursive;
     font-size: 60px;
-    font-weight: 700;
+    font-weight: 400;
     color: #bdbf09;
     text-align: center;
     text-transform: capitalize;
@@ -79,9 +83,7 @@ h2 {
     border-width: 1px #b7b7b7;
 }
 
-#rogue {
-
-}
+/* #rogue -- no elements */
 
 #jubilee, #holstee {
     clear: both;
@@ -97,6 +99,7 @@ h2 {
 }
 
 #work h5 {
+    font-family: 'Poiret One', cursive;
     margin: 0;
     color: #087e8b
 }
@@ -114,19 +117,17 @@ h2 {
     margin: auto;
 }
 
-#about #blusource-link {
+#about h3, #about h4, #about p, #about #blusource-link {
     color: #ffffff;
-}
-
-#about h3, #about h4, #about p {
-    color: white;
 }
 
 #about span {
     font-family: 'Shadows Into Light', cursive;
 }
 
-
+#about p {
+    font-size: 18px;
+}
 /***** CONTACT *****/
 
 #contact {
@@ -135,14 +136,22 @@ h2 {
 }
 
 #contact h3, #contact h4, #contact p {
-    color: white;
+    color: #ffffff;
     text-align: center;
     }
 
-#contact a, #contact p {
-    text-decoration: none;
-    color: white;
+#contact h4 {
+    font-family: 'Patua One', cursive;
     font-weight: 400;
+}
+
+#contact p {
+    font-size: 18px;
+}
+
+#contact a {
+    text-decoration: none;
+    color: #ffffff;
 }
 
 #social-media-icons {
@@ -163,13 +172,18 @@ h2 {
     margin: 0 25px;
 }
 
+#contact #github, #linkedin {
+    height: 50px;
+}
+
 /***** FOOTER *****/
 
 h6 {
+    font-family: 'Raleway', sans-serif;
     font-size: 14px;
     font-weight: 400;
     text-align: center;
-    color: white;
+    color: #ffffff;
     background-color: #095156;
     padding: 0 0 10px 0;
     margin: 0;
